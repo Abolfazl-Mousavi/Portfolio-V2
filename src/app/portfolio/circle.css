@@ -1,0 +1,57 @@
+:root {
+  --angle: 90deg;
+}
+body {
+  overflow: hidden;
+}
+#circle {
+  rotate: var(--angle);
+  transition: rotate;
+  transition-duration: 1s;
+}
+
+.item {
+  user-select: none;
+  position: absolute;
+  aspect-ratio: 1/1;
+  background: #000;
+  border-radius: 999rem;
+  display: grid;
+  place-items: center;
+  width: 25%;
+  rotate: calc(var(--angle) * -1);
+  transition: rotate;
+  transition-duration: 1s;
+}
+#circle > div:nth-child(1) {
+  top: -13%;
+  left: 37%;
+}
+#circle > div:nth-child(2) {
+  top: 2%;
+  left: 73%;
+}
+#circle > div:nth-child(3) {
+  top: 38%;
+  left: 87%;
+}
+#circle > div:nth-child(4) {
+  top: 71%;
+  left: 73%;
+}
+#circle > div:nth-child(5) {
+  top: 85%;
+  left: 37%;
+}
+#circle > div:nth-child(6) {
+  top: 71%;
+  left: 0%;
+}
+#circle > div:nth-child(7) {
+  top: 38%;
+  left: -12%;
+}
+#circle > div:nth-child(8) {
+  top: 2%;
+  left: 0%;
+}

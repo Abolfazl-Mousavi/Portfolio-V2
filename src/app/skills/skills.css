@@ -1,0 +1,37 @@
+.skills > div > span {
+  margin: 0.2rem 0.5rem;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 0.1rem 0.6rem;
+  border: 1px solid white;
+  border-radius: 4rem;
+  color: #fdfdfd;
+  text-align: center;
+  display: inline-block;
+  font-size: larger;
+}
+
+#sparkle > svg {
+  font-size: 5rem;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  top: -100vh;
+  left: -100vw;
+
+  animation: scaleAnimaiton 1s ease-in-out forwards;
+}
+@keyframes scaleAnimaiton {
+  from,
+  to {
+    transform: scale(0);
+  }
+  33%,
+  66% {
+    transform: scale(1);
+  }
+}
+body {
+  overflow: hidden;
+}

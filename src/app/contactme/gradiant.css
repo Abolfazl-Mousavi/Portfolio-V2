@@ -1,0 +1,17 @@
+.gradiant {
+  background: linear-gradient(to right, #a071ff, #e570ff, #ac1eed, #a071ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  white-space: nowrap;
+
+  animation: gradiantAnimation 3s linear infinite;
+  background-size: 200%;
+}
+@keyframes gradiantAnimation {
+  from {
+    background-position: 0 center;
+  }
+  to {
+    background-position: -200% center;
+  }
+}

@@ -1,0 +1,4 @@
+#game > img {
+  z-index: -1;
+  transform: skewY(-1deg);
+}
