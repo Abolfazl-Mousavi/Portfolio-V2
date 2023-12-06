@@ -1,8 +1,7 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## My personal portfolio v2
 
-First, run the development server:
+visit at abolfazl-mousavi.vercel.app
 
 ```bash
 npm run dev
