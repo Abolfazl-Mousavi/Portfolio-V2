@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import Link from "next/link";
 
 import "./dataSets.css";
-import { uniqueRand } from "@/utils/MATH.js";
 
 
 export default function Home() {
@@ -18,6 +17,17 @@ export default function Home() {
     { configuration: 3, roundness: 5 },
   ];
   let previous = 0;
+
+
+  const rand = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+  const uniqueRand = (min, max, prev) => {
+    let next = prev;
+
+    while (prev === next) next = rand(min, max);
+
+    return next;
+  };
+
   useEffect(() => {
     //adding font
     const wrapper = document.getElementById("wrapper");
