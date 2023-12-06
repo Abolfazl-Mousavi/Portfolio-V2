@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./skills.css";
-import SparkleLogoes from "@/components/sparkleLogoes";
+import SparkleLogoes from "@/components/SparkleLogoes";
 const page = () => {
   return (
     <>

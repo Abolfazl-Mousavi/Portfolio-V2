@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Link from "next/link";
 
 import "./dataSets.css";
-import { uniqueRand } from "@/utils/MATH";
+import { uniqueRand } from "@/utils/MATH.js";
 
 
 export default function Home() {
