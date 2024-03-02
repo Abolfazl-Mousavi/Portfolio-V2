@@ -27,7 +27,7 @@ const info = () => {
         </div>
         <p className="px-8">{about}</p>
       </div>
-      <div className="w-56 bg-P4 rounded-full aspect-square absolute -left-[4rem] -top-12 deSclae"></div>
+      <div onClick={history.bakc()} className="w-56 bg-P4 rounded-full aspect-square absolute -left-[4rem] -top-12 deSclae"></div>
     </>
   );
 };
