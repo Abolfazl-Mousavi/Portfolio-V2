@@ -1,7 +1,7 @@
 
 ## My personal portfolio v2
 
-visit at [abolfazl-mousavi-portfoio.netlify.app](abolfazl-mousavi-portfoio.netlify.app)
+visit at [abolfazl-mousavi-portfolio.netlify.app](abolfazl-mousavi-portfolio.netlify.app)
 
 ```bash
 npm run dev
