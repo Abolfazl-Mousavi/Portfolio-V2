@@ -27,7 +27,7 @@ const info = () => {
         </div>
         <p className="px-8">{about}</p>
       </div>
-      <div onClick={history.back()} className="w-56 bg-P4 rounded-full aspect-square absolute -left-[4rem] -top-12 deSclae"></div>
+      <div className="w-56 bg-P4 rounded-full aspect-square absolute -left-[4rem] -top-12 deSclae"></div>
     </>
   );
 };
