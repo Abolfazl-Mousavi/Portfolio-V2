@@ -42,7 +42,7 @@ const page = () => {
         </div>
       </div>
       <SparkleLogoes />
-      <div onClick={history.back()} className="w-56 bg-P5 rounded-full aspect-square absolute  left-[42%] -top-24 deSclae"></div>
+      <div className="w-56 bg-P5 rounded-full aspect-square absolute  left-[42%] -top-24 deSclae"></div>
     </>
   );
 };
