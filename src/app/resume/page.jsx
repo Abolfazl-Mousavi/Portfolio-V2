@@ -11,7 +11,7 @@ const page = () => {
       >view on docs</Link>
       <iframe
         className="w-[595px] h-screen"
-        src="https://docs.google.com/document/d/e/2PACX-1vQxdYDIqNciMA_1lXJKQscUSwSq7JRasX8ouJIjRx7iqCur6OO7uxwireUx79JqJs6myO6N_F8kvHzR/pub?embedded=true"
+        src="https://docs.google.com/document/d/e/2PACX-1vTJib6seo23S2hlFZXpeQfw7Wa2TfsXNkSI9XfODd1wgZElp7haiHgt45CIrZLBXDzBIo_mQkZRUnyP/pub?embedded=true"
       ></iframe>
     </div>
   );
