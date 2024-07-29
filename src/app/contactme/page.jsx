@@ -53,7 +53,7 @@ const contactme = () => {
         </div>
       </div>
       <div className="rounded-full -right-32 md:flex  sm:w-64 hidden aspect-square absolute deSclae bg-P1"></div>
-      <RotateOval />;
+      <RotateOval />
     </>
   );
 };
