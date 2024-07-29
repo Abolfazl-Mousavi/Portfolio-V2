@@ -13,7 +13,7 @@ const nextConfig = {
       },
       {
         protocol: "https",
-        hostname: "camo.githubusercontent.com",
+        hostname: "raw.githubusercontent.com",
         port: "",
         pathname: "/**",
       },
@@ -27,4 +27,4 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig
+module.exports = nextConfig;
